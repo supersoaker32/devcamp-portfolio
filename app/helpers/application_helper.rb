@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+  
+  def copyright_gnerator
+    SuperViewTool::Renderer.copyright 'Supersoaker', 'All rights reserved'
+  end
 end
