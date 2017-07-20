@@ -16,7 +16,7 @@ module ApplicationHelper
     end
   end
   
-  def copyright_gnerator
+  def copyright_generator
     SuperViewTool::Renderer.copyright 'Lane Allan', 'All rights reserved'
   end
 end
